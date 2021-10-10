@@ -1,0 +1,14 @@
+1) admin login page
+2) id create---name, phn, mail, loaction, gender..
+3) welcome to Vitual pharmacy 
+4) what kind of medicine do need? Enter the name, mg...?
+5) medicine name mg price...-->>amount --?  vervice charge 5%
+6) payment bkash, rocket, nagat, dbbl
+7) log out
+
+admin page->
+1) hsitory of selling
+2) order list
+3) delivary list-->ubar pathao
+4) resistration list
+5) 
