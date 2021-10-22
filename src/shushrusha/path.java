@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PaymentSystem;
+package shushrusha;
 
 /**
  *
  * @author USER
  */
-public class Payment {
+class path {
     
 }

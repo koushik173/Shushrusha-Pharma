@@ -1,0 +1,17 @@
+                                                             Medicine List
+
+
+       Code       |    Medicine Name      |     mg     |     Company Name          |      Price/per
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+       1001->          NAPA EXTRA               500          BEXIMCO                        10/=
+       1002->          PANTONIX                  20          INCEPTA                         8/=
+       1003->          AZITHROMYCIN               5          ULTRA PHARMA                   30/=
+       1004->          CALBO-D Vita             500          SQUARE Pharmaceuticals         40/=
+       1005->          NEURO – B                500          SQUARE Pharmaceuticals         20/=
+       1006->          NIDOCARD RETARD          2.6          DRUG INTERNATIONAL LTD.        20/=
+       1007->          OSARTIL                   50          SQUARE Pharmaceuticals         25/=
+       1008->          ANZITOR                   40          INCEPTA                        40/=
+       1009->          MOTIGUT                   10          SQUARE Pharmaceuticals          8/=
+       1010->          E-CAP                    200          DRUG INTERNATIONAL LTD.        30/=
+       1011->          FEXOFENADINE             120          SQUARE Pharmaceuticals         40/=
