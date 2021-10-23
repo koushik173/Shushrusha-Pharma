@@ -37,8 +37,9 @@ public class Run {
                 cd.createCustomerData();
                 
             case 3:
-                 System.out.println("Payament");
-                 
+
+                 Payment p =new Payment();
+                 p.totalPayment();
             case 4:
                  System.out.println("Delivary");
                  
