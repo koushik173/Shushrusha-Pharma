@@ -8,18 +8,18 @@ public class CardPayment {
 
     public void cardPayment() {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter your card number: ");
-        int number = input.nextInt();
+        System.out.print("Enter your card number: ");
+        number = input.nextInt();
 
 
         while (count == 1) {
-            System.out.println("Enter your password: ");
+            System.out.print("Enter your password: ");
             pass = input.nextInt();
-            if(pass== 1236){
-                System.out.println("Successfully paid.");
+            if(pass== 1234){
+                System.out.print("Successfully paid.");
                 count++;
             }else
-                System.out.println("Your password is wrong & try again ");
+                System.out.print("Your password is wrong & try again ");
 
         }
 

@@ -6,43 +6,41 @@ import java.util.Scanner;
 
 public class Run {
     
-
     public static void main(String[] args) throws IOException{
-       
-        Display display=new Display();
-                display.display();
+
+        LoginPage log = new LoginPage();
+        log.login();
         
-   
-       int count =1;
-     
+        Display display=new Display();
+        display.display();
+        Scanner myObj = new Scanner(System.in);
+        
+        
+     int count =1,total = 0;
      while(count==1){
          Option op = new Option();
          op.option();
-    
-    
-        Scanner myObj = new Scanner(System.in);
+
         System.out.print("                                               Enter choice: ");
         int  option = myObj.nextInt();
       
       switch(option){
-                
-                
+    
             case 1:    
                 CreateCustomerFile cf = new CreateCustomerFile();
                 cf.CreateFile();
                 break;
-                
             case 2:
                 CustomerData cd = new CustomerData();
-                cd.createCustomerData();
-                
+                total = cd.createCustomerData();
+                break;
             case 3:
-
                  Payment p =new Payment();
-                 p.totalPayment();
+                 p.totalPayment(total);
+                 break;
             case 4:
                  System.out.println("Delivary");
-                 
+                 break;
             case 5:
                  TotalMedicineList tml = new TotalMedicineList();
                  tml.totalMedicine();

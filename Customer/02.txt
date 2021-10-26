@@ -1,0 +1,13 @@
+                                                              Reciept
+                                                          Shushrusha Pharma
+                                                             123456789
+	                                             Sylhet Sadar, Sylhet-3100
+                                           No: 02                   Name: koushik 
+                                           Phone: 1628248844               Date: 26-10-21 
+                                          Address: Sylhet 
+                               __________________________________________________________________________ 
+                                 NO  |        Description      |  Quantity    |	 Rate     |      Amount 
+                                __________________________________________________________________________ 
+                                 1       ANZITOR  40mg            5           40/=           200/= 
+                                 2       AZITHROMYCIN  5mg            6           30/=           180/= 
+                                 3       NAPA EXTRA  500mg            10           10/=           100/=

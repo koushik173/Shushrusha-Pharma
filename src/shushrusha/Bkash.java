@@ -8,23 +8,21 @@ public class Bkash {
 
     public void bkashPayment() {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter your phn number: ");
-        int number = input.nextInt();
-        System.out.println("Enter your password: ");
-        String pass = input.nextLine();
+        System.out.print("Enter your phn number: ");
+        number = input.nextInt();
+        System.out.print("Enter your password: ");
+        pass = input.nextLine();
 
         while (count == 1) {
-            System.out.println("OTP: ");
-            int otp = input.nextInt();
-            if(otp== 442266){
-                System.out.println("Successfully paid.");
+            System.out.print("OTP: ");
+            otp = input.nextInt();
+            if(otp== 123456){
+                System.out.println("Successfully Paid.");
                 count++;
             }else{
                 System.out.println("Your OTP is wrong");
                 System.out.println("Try again");
             }
-
-
         }
     }
 }
