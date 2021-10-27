@@ -5,11 +5,12 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class CreateCustomerFile {
-    String filename1,path;
+    
+    FilePath fp = new FilePath();
+    String filename1,path= fp.toFilePath();
+    
     public void CreateFile() { 
-    java.io.File dir = new java.io.File("Customer");
-        path = dir.getAbsolutePath();
-        dir.mkdir();
+    
     Scanner fileName = new Scanner(System.in);
                 System.out.print("Customer ID No: ");
                  filename1 = fileName.next();

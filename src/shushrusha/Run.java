@@ -39,7 +39,9 @@ public class Run {
                  p.totalPayment(total);
                  break;
             case 4:
-                 System.out.println("Delivary");
+                 Delivery d = new Delivery();
+                   d.toDelivery();
+
                  break;
             case 5:
                  TotalMedicineList tml = new TotalMedicineList();

@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Payment {
+    FilePath fp = new FilePath();
+   String path= fp.toFilePath();
     int  amount1,option;
     String no;
 Scanner input = new Scanner(System.in);
@@ -14,7 +16,13 @@ Scanner input = new Scanner(System.in);
     public void totalPayment(int t) throws FileNotFoundException, IOException {
         System.out.print("Enter ID: ");
                     no = input.next(); 
-        FileReader fr = new FileReader("K:\\Java\\ Shushrusha_Pharma\\Customer\\"+no+".txt");
+        FileReader fr = new FileReader(path+"\\"+no+".txt");
+        
+        
+        
+        
+        
+        
         int i;
         while ((i = fr.read()) != -1)
             System.out.print((char)i);
@@ -32,6 +40,7 @@ Scanner input = new Scanner(System.in);
         switch (option) {
             case 1:
                 System.out.println("Successfully Paid.");
+                System.out.println("Printing............");
                 break;
                 
             case 2:

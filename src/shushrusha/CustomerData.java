@@ -6,16 +6,18 @@ import java.util.Formatter;
 import java.util.Scanner;
 
 public class CustomerData {
-    String no, name,date,address;
-    int phone;
-    int amount=0;
+    FilePath fp = new FilePath();
+    
+    String no, name,date,address,path =fp.toFilePath();
+    int phone, amount=0;
+    
     Scanner input = new Scanner(System.in);
     public int createCustomerData(){
         try{
                  
                     System.out.print("Enter ID: ");
                     no = input.next();   
-            Formatter formatter = new Formatter("K:\\Java\\ Shushrusha_Pharma\\Customer\\"+no+".txt");
+            Formatter formatter = new Formatter(path+"\\"+no+".txt");
                     
                     System.out.print("Enter Name: ");
                     name = input.next();
@@ -131,9 +133,10 @@ public class CustomerData {
                                     break;        
                         }  
                     }
-                    formatter.format("\n\n\n                                                                           Total: %s/=\n",amount);
+                    formatter.format("\n\n\n                                                                                           Total: %s/=\n",amount);
                     formatter.format("                              -----------------------------------------------------------------------------------\n");
                     formatter.format("                                 Goods can be exchange within 7 days.\n");
+                    formatter.format("                                 Stay Well, Stay Hydrated.\n");
                     formatter.close();
                     System.out.println("Total amount: "+amount+"/=");
                     System.out.println("\n -->$ Please Payment.");
